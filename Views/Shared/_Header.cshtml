@@ -1,0 +1,9 @@
+@{
+    var data = ViewData["data"] as string[];
+}
+
+<h1>Day la data duoc truyen sang bang ViewData.</h1>
+@foreach (var item in data)
+{
+    <p>- @item</p>
+}
